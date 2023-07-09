@@ -1,5 +1,5 @@
-import { Serie } from "./serie";
-import { Plan } from "./plan";
+import { Serie } from "./Serie.js";
+import { Plan } from "./Plan.js";
 
 export class Plataforma{
 

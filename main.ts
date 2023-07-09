@@ -1,9 +1,9 @@
-import { Actor } from "./actor";
-import { Director } from "./director";
-import { Episodio } from "./episodio";
-import { Plan } from "./plan";
-import { Plataforma } from "./plataforma";
-import { Serie } from "./serie";
+import { Actor } from "./Actor.js";
+import { Director } from "./Director.js";
+import { Episodio } from "./Episodio.js";
+import { Plan } from "./Plan.js";
+import { Plataforma } from "./Plataforma.js";
+import { Serie } from "./Serie.js";
 
 const serie1 =new Serie("imagen.png","Padres e hijos")
 const serie2 =new Serie("imagen2.png","Rapido y furioso")

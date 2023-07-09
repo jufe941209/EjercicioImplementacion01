@@ -1,8 +1,7 @@
-import { Plataforma } from "./plataforma"
-import { Actor } from "./actor"
-import { Categoria } from "./categoria"
-import { Director } from "./director"
-import { Episodio } from "./episodio"
+import { Plataforma } from "./Plataforma.js"
+import { Actor } from "./Actor.js"
+import { Director } from "./Director.js"
+import { Episodio } from "./Episodio.js"
 
 
 export class Serie {
@@ -12,7 +11,7 @@ export class Serie {
     directores: Director[]
     actores: Actor[]
     episodios: Episodio[]
-    categorias: Categoria[]
+    categorias: string[]
 
     constructor(imagen: string, nombre:string){
         this.imagen=imagen

@@ -1,4 +1,4 @@
-import { Serie } from "./serie";
+import { Serie } from "./Serie.js";
 
 export class Episodio {
     nombre:string
