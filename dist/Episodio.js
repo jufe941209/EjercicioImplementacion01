@@ -4,5 +4,6 @@ export class Episodio {
         this.resumen = resumen;
         this.duracion = duracion;
         this.serie = serie;
+        this.serie.agregarEpisodio(this);
     }
 }
